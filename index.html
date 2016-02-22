@@ -1,7 +1,8 @@
 
 <link rel="stylesheet" href="main.css" type="text/css" /> 
 <link rel="stylesheet" href="header.css" type="text/css" />
-
+<link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
 
 
@@ -23,7 +24,7 @@
 					<h1>Pride and Prejudice</h1>
 				</div>
 			</header>
-			<button class="trigger"><span>Trigger</span></button>
+			<i class="material-icons trigger">arrow_downward</i>
 			<div class="title">
 				<nav class="codrops-demos">
 						<a class="current-demo" href="../index.html">Home</a>
@@ -39,10 +40,41 @@
 				<p>by <strong>Owen Dunnigan</strong></p>
 			</div>
 			<article class="content">
-				<div>
-					<a href="Parallax/parallax.html" class="link link--yaku" ><span>P</span><span>i</span><span>c</span><span>t</span><span>u</span><span>r</span><span>e</span><span>s</span></a>
-                    <a href="Timeline/timeline.html" class="link link--yaku" ><span>T</span><span>i</span><span>m</span><span>e</span><span>l</span><span>i</span><span>n</span><span>e</span></a>
+				<div class="mdl-grid"> 
+					<!-- Event card -->
 
+
+<div class="demo-card-event mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col">
+  <div class="mdl-card__title mdl-card--expand">
+    <h4>
+      <a class="link link--yaku" ><span>P</span><span>i</span><span>c</span><span>t</span><span>u</span><span>r</span><span>e</span><span>s</span></a>
+
+    </h4>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="Parallax/parallax.html">
+      Take a Look
+    </a>
+    <div class="mdl-layout-spacer"></div>
+    <i class="material-icons">event</i>
+  </div>
+</div>
+<div class="demo-card-event mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col">
+  <div class="mdl-card__title mdl-card--expand">
+    <h4>
+      <a class="link link--yaku" ><span>T</span><span>i</span><span>m</span><span>e</span><span>l</span><span>i</span><span>n</span><span>e</span></a>
+
+    </h4>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="Timeline/timeline.html">
+      Take a Look
+    </a>
+    <div class="mdl-layout-spacer"></div>
+    <i class="material-icons">event</i>
+  </div>
+</div>
+				
 				</div>
 			</article>
 			<section class="related">
@@ -121,7 +153,7 @@
 					noscroll, 
 					isAnimating,
 					container = document.getElementById( 'container' ),
-					trigger = container.querySelector( 'button.trigger' );
+					trigger = container.querySelector( 'i.trigger' );
 
 				function scrollY() {
 					return window.pageYOffset || docElem.scrollTop;

@@ -25,10 +25,10 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 40px 0;
+  height: calc(25vh - 80px);
 }
 section.module.parallax {
-  height: 600px;
+  height: 75vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,4 +68,7 @@ section.module.parallax-3 {
   section.module.parallax h1 {
     font-size: 160px;
   }
+}
+section.module.parallax.parallax-3 {
+  background-position: 50% 5% !important;
 }
