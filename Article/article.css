@@ -239,7 +239,7 @@ button.trigger span::before {
 }
 
 .intro-effect-sidefixed .bg-img::after {
-	background: #f8ebda;
+	background: rgba(248, 235, 218, 0.83);
 	top: 0;
 	right: 0;
 	width: 63%;
