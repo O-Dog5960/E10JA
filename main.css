@@ -47,28 +47,40 @@ body {
     color: #1e1a1b;
     -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
     transform: perspective(1000px) rotate3d(0, 1, 0, 360deg); }
-  .link--yaku span:nth-child(8), .link--yaku:hover span:first-child {
+  .link--yaku span:nth-child(12), .link--yaku:hover span:first-child {
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
-  .link--yaku span:nth-child(7), .link--yaku:hover span:nth-child(2) {
+  .link--yaku span:nth-child(11), .link--yaku:hover span:nth-child(2) {
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s; }
-  .link--yaku span:nth-child(6), .link--yaku:hover span:nth-child(3) {
+  .link--yaku span:nth-child(10), .link--yaku:hover span:nth-child(3) {
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s; }
-  .link--yaku span:nth-child(5), .link--yaku:hover span:nth-child(4) {
+  .link--yaku span:nth-child(9), .link--yaku:hover span:nth-child(4) {
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s; }
-  .link--yaku span:nth-child(4), .link--yaku:hover span:nth-child(5) {
+  .link--yaku span:nth-child(8), .link--yaku:hover span:nth-child(5) {
     -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s; }
-  .link--yaku span:nth-child(3), .link--yaku:hover span:nth-child(6) {
+  .link--yaku span:nth-child(7), .link--yaku:hover span:nth-child(6) {
     -webkit-transition-delay: 0.5s;
     transition-delay: 0.5s; }
-  .link--yaku span:nth-child(2), .link--yaku:hover span:nth-child(7) {
+  .link--yaku span:nth-child(6), .link--yaku:hover span:nth-child(7) {
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s; }
-  .link--yaku span:first-child, .link--yaku:hover span:nth-child(8) {
+  .link--yaku span:nth-child(5), .link--yaku:hover span:nth-child(8) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s; }
+  .link--yaku span:nth-child(4), .link--yaku:hover span:nth-child(9) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s; }
+  .link--yaku span:nth-child(3), .link--yaku:hover span:nth-child(10) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s; }
+  .link--yaku span:nth-child(2), .link--yaku:hover span:nth-child(11) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s; }
+  .link--yaku span:first-child, .link--yaku:hover span:nth-child(12) {
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s; }
 
@@ -115,27 +127,5 @@ body {
   font-size: 36px; }
 .material-icons.md-48 {
   font-size: 48px; }
-
-.demo-card-event.mdl-card {
-  height: 50%;
-  background: #3E4EB8; }
-.demo-card-event > .mdl-card__actions {
-  border-color: rgba(255, 255, 255, 0.2); }
-.demo-card-event > .mdl-card__title {
-  align-items: flex-start; }
-  .demo-card-event > .mdl-card__title > h4 {
-    margin-top: 0; }
-.demo-card-event > .mdl-card__actions {
-  display: flex;
-  box-sizing: border-box;
-  align-items: center; }
-  .demo-card-event > .mdl-card__actions > .material-icons {
-    padding-right: 10px; }
-.demo-card-event > .mdl-card__title {
-  color: #fff; }
-.demo-card-event > .mdl-card__actions {
-  color: #fff; }
-  .demo-card-event > .mdl-card__actions > .mdl-button {
-    color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
