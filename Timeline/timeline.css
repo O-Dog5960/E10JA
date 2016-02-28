@@ -12,12 +12,12 @@ body {
   font-size: 100%;
   font-family: "Noto Sans", sans-serif;
   color: #eee9dc;
-  background: #48b379; }
+  background: #A53EBB; }
 
 h2 {
   margin: 3em 0 0 0;
-  font-size: 1.5em;
-  letter-spacing: 2px;
+  font-size: 2em;
+  letter-spacing: 0.25em;
   text-transform: uppercase; }
 
 /* -------------------------------------
@@ -53,7 +53,7 @@ h2 {
   right: 0;
   width: 10px;
   height: 10px;
-  background: #48b379;
+  background: #A53EBB;
   border: 5px solid #eee9dc;
   border-radius: 50%;
   display: block;
@@ -68,7 +68,7 @@ h2 {
   transition: width 0.4s linear, max-height 0.4s linear;
   border-width: 2px;
   border-style: solid;
-  border-radius: 0.5em;
+  border-radius: 0.1em;
   position: relative; }
   .content:before, .content:after {
     content: "";
@@ -84,7 +84,7 @@ h2 {
     left: 50%;
     margin-left: -15px; }
   .content:after {
-    border-bottom-color: #48b379;
+    border-bottom-color: #A53EBB;
     border-width: 12px;
     left: 50%;
     margin-left: -12px; }
