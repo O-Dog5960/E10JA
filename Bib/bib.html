@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 
 <head>
@@ -78,14 +77,16 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
-<script>$(document).ready(function() {
+<script>
+$(document).ready(function() {
 
-$(window).scroll(function() {
-    if ($(document).scrollTop() >= 100) {
-        $('#header').addClass('mdl-shadow--4dp');
+  $('.mdl-layout').scroll(function() {
+    if ($('.mdl-layout').scrollTop() >= 100) {
+      $('#header').addClass('mdl-shadow--4dp');
     }
+  });
 });
-});</script>
+</script>
 </body>
 
 </html>
