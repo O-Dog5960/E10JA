@@ -84,6 +84,10 @@ $(document).ready(function() {
     if ($('.mdl-layout').scrollTop() >= 100) {
       $('#header').addClass('mdl-shadow--4dp');
     }
+    if ($('.mdl-layout').scrollTop() <= 100) {
+      $('#header').removeClass('mdl-shadow--4dp');
+    }
+
   });
 });
 </script>
