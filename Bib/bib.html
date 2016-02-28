@@ -1,54 +1,16 @@
 <!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Annotated Bibliography</title>
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
-
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-
-    <link rel="shortcut icon" href="images/favicon.png">
-
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <!--
-    <link rel="canonical" href="http://www.example.com/">
-    -->
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.teal-red.min.css">
-    <link rel="stylesheet" href="bib.css">
-    <style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Annotated Bibliography</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.teal-red.min.css">
+  <link rel="stylesheet" href="bib.css">
+  <style>
     #view-source {
       position: fixed;
       display: block;
@@ -58,57 +20,72 @@
       margin-bottom: 40px;
       z-index: 900;
     }
-    </style>
-  </head>
-  <body>
-       
-    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800 mdl-shadow--4dp">
-          <a class="icon material-icons" href="../index.html">arrow_back</a>
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Annotated Bibliography</span>
-          <div class="mdl-layout-spacer"></div>
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search">
-              <label class="mdl-textfield__label" for="search">Enter your query...</label>
-            </div>
+  </style>
+</head>
+
+<body>
+
+  <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+    <header id="header" class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+      <a class="icon material-icons" href="../index.html">arrow_back</a>
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">Annotated Bibliography</span>
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" id="search">
+            <label class="mdl-textfield__label" for="search">Enter your query...</label>
           </div>
         </div>
-      </header>
-      <div class="demo-ribbon"></div>
-      <main class="demo-main mdl-layout__content">
-        <div class="demo-container mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-            <div class="demo-crumbs mdl-color-text--grey-500">
-              Index &gt; Annotated Bibliography
-            </div>
-               <h3>History of Western typography</h3>
-                    <p>This source is all about the History of Western typography as opposed to maybe typography in the east. It talks about the start of typography from the medieval age, and the revival in the classical era, all the way up to typography in the 19th and 20th century. It also talks about the development of various types of fonts, and how they changed from handwriting style to more unified. <br>The credibility of this source, while it could be questionable, does include up to 7 references as well as information from books. I plan to use it as a way to scrape together information to add to my timeline and article.</p>
-               <h3>Typography</h3>
-                    <p>This source is all about of typography from the whole world, as well as modern day.  It talks about experimental typography, the evolution of typography, and what it was used for back in the day. It talks about moveable type and how that was a major advancement in the field, as well as how big of a deal the printing press was. This source also includes the techniques and lingo of the field.<br>While the credibility of this source could be questionable, it sources its information from over 50 different sources and sites. This will be of great help for my timeline of typography and for the article.</p>
-               <h3>The Regency: "So long, Long S"</h3>
-                    <p>Talking about the  ſ, a long s, it recounts the history of this forgotten letter used to mark a long s like in words husband or reason, as opposed to the softer s in words like silk or rest. It talks about how it was used to mark a form of currency, but more importantly, it talks about the decline of letter since typefaces started to drop it from their foundries.<br>The credibility of this source, without looking at would send up red flags since it is a wordpress site, but because it has numerous links in the article and there is a bio of the author who says she is an avid historian of the regency era, I would deem this this a safe bet that she's not lying to us.</p>
-               <h3>Crash Course: The evolution of typeface style</h3>
-                    <p>Talking about the evolution of different type of font faces, like serif, sans serif, display, slab, and more, it talks about how the influences of the things society was going through helped put a sense of history into the font faces. They compare and contrast the differences between the font styles and how it affects the overall feel of the fonts, as well as how the technology of the time has changed how and in what ways font faces are made.<br>Even though this is a blog, there are not many ways to lie about the design of a font face, and they do have quite a collection of articles on different fonts and the histories so this is not that bad of a source.</p>
-               <h3>Helvetica</h3>
-                    <p>This movie is probably one of my favorite documentaries. The director is very credible, as we also have watched a movie by him in AP Human Geography. It talks about the beginning of the font Helvetica, which everyone knows the font, even if they don’t know the name. It is probably the most popular, if not most widely used font as big companies like Target, Walmart, Jeep, and many other big name brands use this font for their logos.<br>This movie is a documentary, and it widely recommended among typographers today, so it kinda has to be credible. He visit the ‘home’ of the font and the designer’s family, and learns about the history from a primary source. (Yes I did watch a movie on a font)</p>
+      </div>
+    </header>
+    <div class="demo-ribbon"></div>
+    <main class="demo-main mdl-layout__content">
+      <div class="demo-container mdl-grid">
+        <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+          <div class="demo-crumbs mdl-color-text--grey-500">
+            Index &gt; Annotated Bibliography
           </div>
+          <h3>History of Western typography</h3>
+          <p>This source is all about the History of Western typography as opposed to maybe typography in the east. It talks about the start of typography from the medieval age, and the revival in the classical era, all the way up to typography in the 19th
+            and 20th century. It also talks about the development of various types of fonts, and how they changed from handwriting style to more unified.
+            <br>The credibility of this source, while it could be questionable, does include up to 7 references as well as information from books. I plan to use it as a way to scrape together information to add to my timeline and article.</p>
+          <h3>Typography</h3>
+          <p>This source is all about of typography from the whole world, as well as modern day. It talks about experimental typography, the evolution of typography, and what it was used for back in the day. It talks about moveable type and how that was
+            a major advancement in the field, as well as how big of a deal the printing press was. This source also includes the techniques and lingo of the field.
+            <br>While the credibility of this source could be questionable, it sources its information from over 50 different sources and sites. This will be of great help for my timeline of typography and for the article.</p>
+          <h3>The Regency: "So long, Long S"</h3>
+          <p>Talking about the ſ, a long s, it recounts the history of this forgotten letter used to mark a long s like in words husband or reason, as opposed to the softer s in words like silk or rest. It talks about how it was used to mark a form of currency,
+            but more importantly, it talks about the decline of letter since typefaces started to drop it from their foundries.
+            <br>The credibility of this source, without looking at would send up red flags since it is a wordpress site, but because it has numerous links in the article and there is a bio of the author who says she is an avid historian of the regency era,
+            I would deem this this a safe bet that she's not lying to us.</p>
+          <h3>Crash Course: The evolution of typeface style</h3>
+          <p>Talking about the evolution of different type of font faces, like serif, sans serif, display, slab, and more, it talks about how the influences of the things society was going through helped put a sense of history into the font faces. They compare
+            and contrast the differences between the font styles and how it affects the overall feel of the fonts, as well as how the technology of the time has changed how and in what ways font faces are made.
+            <br>Even though this is a blog, there are not many ways to lie about the design of a font face, and they do have quite a collection of articles on different fonts and the histories so this is not that bad of a source.</p>
+          <h3>Helvetica</h3>
+          <p>This movie is probably one of my favorite documentaries. The director is very credible, as we also have watched a movie by him in AP Human Geography. It talks about the beginning of the font Helvetica, which everyone knows the font, even if
+            they don’t know the name. It is probably the most popular, if not most widely used font as big companies like Target, Walmart, Jeep, and many other big name brands use this font for their logos.
+            <br>This movie is a documentary, and it widely recommended among typographers today, so it kinda has to be credible. He visit the ‘home’ of the font and the designer’s family, and learns about the history from a primary source. (Yes I did watch
+            a movie on a font)</p>
         </div>
-      </main>
-    </div>
-    <a href="https://github.com/google/material-design-lite/blob/master/templates/article/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
-    <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
-    <script>$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();    
-    if (scroll <= 500) {
-        $(".demo-header").addClass("mdl-shadow--4dp");
+      </div>
+    </main>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+<script>$(document).ready(function() {
+
+$(window).scroll(function() {
+    if ($(document).scrollTop() >= 100) {
+        $('#header').addClass('mdl-shadow--4dp');
     }
-}
-</script>
-  </body>
+});
+});</script>
+</body>
+
 </html>
