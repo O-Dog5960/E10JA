@@ -303,7 +303,8 @@ button.trigger span::before {
 .intro-effect-sidefixed .content div {
 	position: relative;
 	margin: 70px 0;
-	color: #77726b;
+	color: #4E4B44;
+	text-indent: 25px;
 }
 
 .intro-effect-sidefixed .content div:nth-child(2) {
@@ -337,4 +338,11 @@ button.trigger span::before {
 .intro-effect-sidefixed.modify:not(.notrans) .content div:nth-child(2) {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
+}
+.title .icon {
+	position:fixed;
+	left: -20px;
+	font-size: 40px;
+	top: 5px;
+	text-decoration: none;
 }
