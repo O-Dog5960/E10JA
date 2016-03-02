@@ -1,20 +1,46 @@
-<link rel="stylesheet" href="grid.css" type="text/css" />
+
 <link rel="stylesheet" href="../main.css" type="text/css" />
+
 <style>
   body {
     margin: 0px;
+    background-color: #512DA8;
   }
+  p {
+    text-align: center;
+  }
+  div img {
+  	width: 100%;
+  }
+  .grid-sizer,
+  .grid-item { width: calc(95% / 3); }
 </style>
-<a class="icon material-icons" href="../index.html">arrow_back</a>
-
-<ul class="cbp-rfgrid">
-	<li><a href="#"><img src="1.jpg" /><div><h3>Felis catus</h3></div></a></li>
-	<li><a href="#"><img src="1.jpg" /><div><h3>Felis catus</h3></div></a></li>
-	<li><a href="#"><img src="1.jpg" /><div><h3>Felis catus</h3></div></a></li>
-	<li><a href="#"><img src="1.jpg" /><div><h3>Felis catus</h3></div></a></li>
-	<li><a href="#"><img src="2.jpg" /><div><h3>Felis catus</h3></div></a></li>
-	<li><a href="#"><img src="3.jpg" /><div><h3>Felis catus</h3></div></a></li>
-	<li><a href="#"><img src="4.jpg" /><div><h3>Felis catus</h3></div></a></li>
-	<li><a href="#"><img src="5.jpg" /><div><h3>Felis catus</h3></div></a></li>
-	<!-- ... -->
-</ul>
+<a class="icon material-icons" href="../index.html" style="color: #8FC7F8;">arrow_back</a>
+<p>Think about how the font used invokes a feeling.</p>
+<div class="grid">
+	<div class="grid-sizer"></div>
+	<div class="grid-item"><img src="1.jpg" /><div><h3>Fancy but Sassy</h3></div></div>
+	<div class="grid-item"><img src="2.jpg" /><div><h3>Sophisticated</h3></div></div>
+	<div class="grid-item"><img src="5.jpg" /><div><h3>Lingua Latina</h3></div></div>
+	<div class="grid-item"><img src="3.jpg" /><div><h3>Thanksgiving</h3></div></div>
+	<div class="grid-item"><img src="4.jpg" /><div><h3>Leapyear</h3></div></div>
+	<div class="grid-item"><img src="8.jpg" /><div><h3>Valentines</h3></div></div>
+	<div class="grid-item"><img src="6.jpg" /><div><h3>Newyears (Nice)</h3></div></div>
+	<div class="grid-item"><img src="7.jpg" /><div><h3>Newyears (Sassy)</h3></div></div>
+	
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+<script>
+$(document).ready(function() {
+	$(window).load(function() {
+	$('.grid').masonry({
+  // options
+  columnWidth: '.grid-sizer',
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  gutter: 10,
+});
+});
+});
+</script>
