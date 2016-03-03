@@ -8,25 +8,31 @@
   }
   p {
     text-align: center;
+    color: #8FC7F8;
   }
   div img {
   	width: 100%;
   }
   .grid-sizer,
-  .grid-item { width: calc(95% / 3); }
+  .grid-item { width: calc(100% / 3); }
+  .grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
 </style>
 <a class="icon material-icons" href="../index.html" style="color: #8FC7F8;">arrow_back</a>
-<p>Think about how the font used invokes a feeling.</p>
+<p>Think about how the fonts used invokes a different feeling based on the poster.</p>
 <div class="grid">
 	<div class="grid-sizer"></div>
 	<div class="grid-item"><img src="1.jpg" /><div><h3>Fancy but Sassy</h3></div></div>
 	<div class="grid-item"><img src="2.jpg" /><div><h3>Sophisticated</h3></div></div>
 	<div class="grid-item"><img src="5.jpg" /><div><h3>Lingua Latina</h3></div></div>
-	<div class="grid-item"><img src="3.jpg" /><div><h3>Thanksgiving</h3></div></div>
-	<div class="grid-item"><img src="4.jpg" /><div><h3>Leapyear</h3></div></div>
-	<div class="grid-item"><img src="8.jpg" /><div><h3>Valentines</h3></div></div>
-	<div class="grid-item"><img src="6.jpg" /><div><h3>Newyears (Nice)</h3></div></div>
-	<div class="grid-item"><img src="7.jpg" /><div><h3>Newyears (Sassy)</h3></div></div>
+	<div class="grid-item"><img src="3.jpg" /><div><h3>Valentines</h3></div></div>
+	<div class="grid-item"><img src="4.jpg" /><div><h3>Thanksgiving</h3></div></div>
+	<div class="grid-item"><img src="8.jpg" /><div><h3>Leapyear</h3></div></div>
+	<div class="grid-item"><img src="6.jpg" /><div><h3>New Years (Nice)</h3></div></div>
+	<div class="grid-item"><img src="7.jpg" /><div><h3>New Years (Sassy)</h3></div></div>
 	
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -40,6 +46,8 @@ $(document).ready(function() {
   itemSelector: '.grid-item',
   percentPosition: true,
   gutter: 10,
+  fitWidth: true,
+  transitionDuration: '0.8s',
 });
 });
 });
